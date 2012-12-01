@@ -12,7 +12,7 @@ function send_message()
 
   $.ajax({
     type: "POST",
-    url: "http://4zdr.localtunnel.com/message",
+    url: "http://3szi.localtunnel.com/message",
     data: { msgtype: msgtype, address: address, message: message }
   }).done(function( msg ) {
     console.log( "Data Saved: " + msg );
