@@ -1,4 +1,7 @@
 Server::Application.routes.draw do
+
+  post '/message' => 'messages#message'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
